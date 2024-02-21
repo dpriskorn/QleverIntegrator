@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qleverintegrator"
+version = "0.1.0"
+description = "Library to help developers execute queries on QLever endpoints"
+authors = ["Your Name <you@example.com>"]
+license = "GPLv3+"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
